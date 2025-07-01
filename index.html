@@ -1,188 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Shoreline Shine offers expert pressure washing, soft washing, and drone inspections throughout Southwest Florida. Licensed, insured, and locally owned. Get your free estimate today!" />
-  <meta name="keywords"
-    content="pressure washing, roof cleaning, soft wash, paver sealing, driveway cleaning, drone inspections, Cape Coral, Fort Myers, Naples, Bonita Springs, Babcock Ranch" />
-  <meta name="author" content="Shoreline Shine" />
-  <title>Shoreline Shine | Pressure Washing in Southwest Florida</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary-teal: #00a9a5;
-      --primary-blue: #014b76;
-      --accent-light: #e6f6fa;
-      --text-dark: #1c1c1c;
-      --white: #ffffff;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Open Sans', sans-serif;
-      color: var(--text-dark);
-      background-color: var(--white);
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(to right, #00a9a5, #014b76);
-      color: var(--white);
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-    }
-
-    header p {
-      margin: 10px 0;
-    }
-
-    .cta-button {
-      background: var(--primary-blue);
-      color: var(--white);
-      border: none;
-      padding: 12px 24px;
-      font-size: 1rem;
-      border-radius: 5px;
-      margin-top: 20px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 2rem;
-      color: var(--primary-blue);
-    }
-
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .service-box {
-      flex: 1 1 30%;
-      background: var(--accent-light);
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    }
-
-    .service-box h3 {
-      margin: 10px 0;
-      color: var(--primary-blue);
-    }
-
-    .photos {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .photos img {
-      width: 100%;
-      max-width: 500px;
-      border-radius: 8px;
-    }
-
-    .testimonial {
-      font-style: italic;
-      text-align: center;
-      max-width: 800px;
-      margin: 20px auto;
-    }
-
-    footer {
-      background: var(--primary-blue);
-      color: var(--white);
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 768px) {
-      .services {
-        flex-direction: column;
-      }
-    }
-  </style>
-  <!-- Google Analytics -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shoreline Shine | Sparkling Surfaces, Coastal Confidence</title>
+  <meta name="description" content="Professional pressure washing in Southwest Florida. Free estimates!" />
+  <meta name="keywords" content="pressure washing, soft wash, driveway cleaning, Cape Coral, Babcock Ranch" />
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics: replace G-XXXXXXXXXX with your ID -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX'); // Replace with your tracking ID
+    gtag('config','G-XXXXXXXXXX');
   </script>
 </head>
-
 <body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <h1>SPARKLING SURFACES,<br>COASTAL CONFIDENCE</h1>
-    <p>Licensed & Insured · Soft-Wash Experts · Locally Owned</p>
-    <a href="#contact" class="cta-button">GET A FREE ESTIMATE</a>
+    <h1>Sparkling Surfaces,<br>Coastal Confidence</h1>
+    <p>Licensed &amp; Insured • Soft-Wash Experts • Locally Owned</p>
+    <a href="contact.html" class="btn">Get a Free Estimate</a>
   </header>
 
   <section>
-    <h2>OUR SERVICES</h2>
+    <h2>Our Services</h2>
     <div class="services">
       <div class="service-box">
+        <img src="images/icon-home.svg" alt="Residential Cleaning">
         <h3>Residential Cleaning</h3>
-        <p>Driveways, homes, roofs, patios & more.</p>
+        <p>Soft-wash for homes, driveways &amp; roofs.</p>
       </div>
       <div class="service-box">
+        <img src="images/icon-commercial.svg" alt="Commercial Services">
         <h3>Commercial Services</h3>
-        <p>Storefronts, parking lots, sidewalks, HOAs.</p>
+        <p>Storefronts, parking lots &amp; HOA communities.</p>
       </div>
       <div class="service-box">
+        <img src="images/icon-drone.svg" alt="Drone Inspections">
         <h3>Drone Inspections</h3>
-        <p>Roof, property & insurance-grade inspections.</p>
+        <p>Roof &amp; property inspections.</p>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>RECENT WORK</h2>
-    <div class="photos">
-      <img src="before.jpg" alt="Before cleaning">
-      <img src="after.jpg" alt="After cleaning">
+    <h2>Recent Work</h2>
+    <div class="gallery">
+      <img src="images/before1.jpg" alt="Before cleaning">
+      <img src="images/after1.jpg" alt="After cleaning">
     </div>
   </section>
 
   <section>
-    <h2>WHAT CUSTOMERS ARE SAYING</h2>
-    <div class="testimonial">
-      <p>"Our home looks better than new! Courteous, professional, and an outstanding result. Highly recommend!"<br>- Stave M.</p>
-    </div>
+    <h2>What Customers Are Saying</h2>
+    <p class="testimonial">
+      “Our home looks better than new! Professional, friendly, and efficient.”<br>
+      <strong>- Steve M.</strong>
+    </p>
+  </section>
+
+  <section>
+    <h2>Ready for a Sparkle?</h2>
+    <a href="contact.html" class="btn">Request Your Free Estimate</a>
   </section>
 
   <footer>
     <p>© 2025 Shoreline Shine | Serving all of Southwest Florida</p>
-    <p><a href="mailto:shorelineshine@gmail.com" style="color: #ffffff; text-decoration: underline;">shorelineshine@gmail.com</a> | (757) 639-5275</p>
+    <p>Email: <a href="mailto:shorelineshine@gmail.com">shorelineshine@gmail.com</a> | Phone: (757) 639-5275</p>
   </footer>
 </body>
-
 </html>
